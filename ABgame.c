@@ -116,8 +116,7 @@ int checking(void)
 		}	
 	}
 	printf("It's %da, %db.", counta, countb);
-	if(counta == 4)
-		return(counta);
+	return(counta);		
 }
 void checking2(int *counta, int *countb, int i, int tem)
 {
